@@ -17,6 +17,7 @@
 		8948B2871BC942670085B2FD /* GitHubGistsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8948B2861BC942670085B2FD /* GitHubGistsUITests.swift */; };
 		89A9AA881BC948F700737982 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 89A9AA871BC948F700737982 /* Podfile */; settings = {ASSET_TAGS = (); }; };
 		89A9AA8A1BC94C0900737982 /* GitHubAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A9AA891BC94C0900737982 /* GitHubAPIManager.swift */; settings = {ASSET_TAGS = (); }; };
+		89A9AAD11BCAB61F00737982 /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A9AAD01BCAB61F00737982 /* Gist.swift */; settings = {ASSET_TAGS = (); }; };
 		C293B5383B21A3F654A176B0 /* Pods_GitHubGists.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B288E4A4CF0A7E45E282EF5 /* Pods_GitHubGists.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		8948B2881BC942670085B2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89A9AA871BC948F700737982 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		89A9AA891BC94C0900737982 /* GitHubAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPIManager.swift; sourceTree = "<group>"; };
+		89A9AAD01BCAB61F00737982 /* Gist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
 		CE3B2D499B9D3D1EF7E4C77F /* Pods-GitHubGists.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubGists.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubGists/Pods-GitHubGists.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 		8948B2581BC942670085B2FD = {
 			isa = PBXGroup;
 			children = (
+				89A9AACF1BCAB61000737982 /* Model */,
 				8948B2631BC942670085B2FD /* GitHubGists */,
 				8948B27A1BC942670085B2FD /* GitHubGistsTests */,
 				8948B2851BC942670085B2FD /* GitHubGistsUITests */,
@@ -146,6 +149,14 @@
 				8948B2881BC942670085B2FD /* Info.plist */,
 			);
 			path = GitHubGistsUITests;
+			sourceTree = "<group>";
+		};
+		89A9AACF1BCAB61000737982 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89A9AAD01BCAB61F00737982 /* Gist.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		ACC810D64C5DD511E520CBA9 /* Pods */ = {
@@ -340,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A9AAD11BCAB61F00737982 /* Gist.swift in Sources */,
 				8948B2691BC942670085B2FD /* DetailViewController.swift in Sources */,
 				89A9AA8A1BC94C0900737982 /* GitHubAPIManager.swift in Sources */,
 				8948B2671BC942670085B2FD /* MasterViewController.swift in Sources */,
